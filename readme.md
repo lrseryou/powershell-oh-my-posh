@@ -132,3 +132,30 @@ C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\3.180.0
 ```
 
 - 重启powershell
+
+- 获取主题列表
+```
+Get-PoshThemes
+```
+
+- 设置主题（临时）
+```
+Set-PoshPrompt aliens
+```
+
+- 更换主题，打开文件："C:\Users\用户名\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1",Set-PoshPrompt -Theme 后面的参数就是主题名
+```
+#chcp 65001
+Set-PSReadlineOption -EditMode Emacs
+function which($name) { Get-Command $name | Select-Object Definition }
+function rmrf($item) { Remove-Item $item -Recurse -Force }
+function mkfile($file) { "" | Out-File $file -Encoding ASCII }
+#Import-Module posh-git
+#Import-Module oh-my-posh
+#Import-Module Get-ChildItemColor
+#Import-Module WindowsConsoleFonts
+Set-Alias l Get-ChildItemColor -option AllScope
+Set-Alias ls Get-ChildItemColorFormatWide -option AllScope
+#Set-PoshPrompt -Theme Paradox
+Set-PoshPrompt -Theme aliens
+```
