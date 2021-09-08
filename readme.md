@@ -143,7 +143,7 @@ Get-PoshThemes
 Set-PoshPrompt aliens
 ```
 
-- 更换主题，打开文件："C:\Users\用户名\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1",Set-PoshPrompt -Theme 后面的参数就是主题名
+- 更换主题，打开文件："C:\Users\用户名\Documents\WindowsPowerShell\Microsoft，PowerShell_profile.ps1",Set-PoshPrompt -Theme 后面的参数就是主题名
 ```
 #chcp 65001
 Set-PSReadlineOption -EditMode Emacs
