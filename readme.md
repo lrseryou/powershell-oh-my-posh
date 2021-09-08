@@ -131,4 +131,4 @@ https://www.powershellgallery.com/api/v2/package/oh-my-posh
 C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\3.180.0
 ```
 
-重启powershell
+- 重启powershell
