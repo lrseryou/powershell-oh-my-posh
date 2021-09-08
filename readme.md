@@ -159,3 +159,5 @@ Set-Alias ls Get-ChildItemColorFormatWide -option AllScope
 #Set-PoshPrompt -Theme Paradox
 Set-PoshPrompt -Theme aliens
 ```
+
+字体推荐使用：等距更纱黑体SC
