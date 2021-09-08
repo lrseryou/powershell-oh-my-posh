@@ -122,12 +122,10 @@ cd ..
 del .\fonts\ -Recurse -Force
 ```
 
-手动下载oh-my-posh
+- 手动下载oh-my-posh
 ```
 https://www.powershellgallery.com/api/v2/package/oh-my-posh
 ```
-后缀名修改成.zip，解压到：C:\Program Files\WindowsPowerShell\Modules
-创建文件夹oh-my-posh，进入oh-my-posh文件夹，再创建文件夹3.180.0（根据oh-my-posh版本命名）
-```
-C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\3.180.0
-```
+- 创建文件夹oh-my-posh，进入oh-my-posh文件夹，再创建文件夹3.180.0（根据oh-my-posh版本命名），下载好的.nupkg文件后缀名修改成.zip，解压到：C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\3.180.0
+
+重启powershell
